@@ -1,0 +1,7 @@
+.right_side{
+    background: $background_color;
+    @extend .left_part;
+    img{
+        height:250px;
+    }
+}

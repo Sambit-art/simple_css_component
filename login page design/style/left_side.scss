@@ -1,0 +1,41 @@
+
+.left_part{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: $background_color;
+    height: 300px;
+    width: 300px;
+
+    
+
+    input{
+        width: 80%;
+        margin: 20px auto;
+        background: none;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #005522ff;
+        text-align: center;
+        color:#005522ff;
+
+    }
+    
+
+    button{
+        width: 30%;
+        margin: 10px auto;
+        background:$button_color;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        transition: 0.5s;
+
+    }
+    button:hover{
+        background:#03b64bec;
+        color:rgb(2, 112, 48);
+    }
+}
+
